@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EMAIL</title>
+    <link rel="stylesheet" href="./bs/css/bootstrap.css">
+    <style>
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="card col-6 bg-info center">
+                <h1 class="text-white text-center">INTER YOUR EMAIL</h1>
+                <label for="" class=" mt-3 text-white">EMAIL</label>
+
+                <input type="text" class="mt-2 col-6 " id="email" onchange="validation_email()">
+                <div id="output"></div>
+                <label for="" class="mt-3 text-white">PASS</label>
+                <input type="password" class="mt-2 mb-5 col-6">
+                <button type="submit" class="btn btn-warning col-3 mb-5">SUBMIT</button>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
